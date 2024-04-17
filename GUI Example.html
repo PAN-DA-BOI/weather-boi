@@ -1,0 +1,109 @@
+<html>
+<head>
+		<title>
+		gui testing
+		</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		</head>
+		
+<style>
+	.box{
+  <!border-radius: 25px;
+  padding:15px;
+}
+	.box-big{
+	<!border-radius: 25px;
+	padding:15px;
+	}
+	.box-mini{
+	<!border-radius: 25px;
+	padding: 5px;
+	height: 120px
+	}
+	.row{
+	height:33%;
+	}
+	body{
+	background-color: #000000;
+	}
+	.flexy{
+	display: flex;
+	}
+	.vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+	
+	
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 box" style="background-color: #00A2E8;">
+					<h1>weather</h1>
+					<h6>temperature - </h6>
+					<h6>air pressure - </h6>
+					<h6>humidity - </h6>
+				</div>
+				<div class="col-6 box" style="background-color: #FFAEC9;">
+					<h1>time/sun info</h1>
+					<h6>time - </h6>
+					<h6>sun down - </h6>
+					<h6>sun up - </h6>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 box" style="background-color: #22B14C;">
+					<h1>physics</h1>
+					<h6>pitch - </h6>
+					<h6>roll - </h6>
+					<h6>yaw - </h6>
+				</div>
+				<div class="col-6 box" style="background-color: #FFF200;">
+					<h1>board info</h1>
+					<h6>CPU - </h6>
+					<h6>MEMORY - </h6>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 box-big flex-container" style="background-color: #A349A4;">
+					<h1>send information</h1>
+					<div class="flexy">
+						<div class="col-2 box-mini" style="background-color: #00A2E8;">
+							 <div class="vertical-center">
+							<h5>weather</h5> </div>
+						</div>
+						<div class="col-2 box-mini" style="background-color: #FFAEC9;">
+							 <div class="vertical-center">
+							<h5>time and <br> sun info</h5> </div>
+						</div>
+						<div class="col-2 box-mini" style="background-color: #22B14C;">
+							 <div class="vertical-center">
+							<h5>physics</h5> </div>
+						</div>
+						<div class="col-2 box-mini" style="background-color: #FFF200;">
+							 <div class="vertical-center">
+							<h5>board info</h5> </div>
+						</div>
+						<div class="col-2 box-mini" style="background-color: #ED1C24;">
+							 <div class="vertical-center">
+							<h5>SOS</h5> </div>
+						</div>
+						<div class="col-2 box-mini" style="background-color: #FF7F27;">
+							 <div class="vertical-center">
+							<h5>EXIT</h5> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	
+
+
+				
